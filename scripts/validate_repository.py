@@ -31,7 +31,7 @@ def tracked_files() -> list[Path]:
 def validate_layout(errors: list[str]) -> None:
     for relative in PROGRAMS:
         program = ROOT / relative
-        for required in (program / "README.md", program / "src" / "main.ASM"):
+        for required in (program / "README.md", program / "src" / "main.asm"):
             if not required.is_file():
                 errors.append(f"missing required file: {required.relative_to(ROOT)}")
 
