@@ -1,0 +1,14 @@
+# MASM/TASM and linker output
+*.obj
+*.exe
+*.com
+*.lst
+*.map
+*.pdb
+*.ilk
+
+# Emulator and editor state
+*.conf.local
+.vscode/
+.idea/
+.DS_Store
