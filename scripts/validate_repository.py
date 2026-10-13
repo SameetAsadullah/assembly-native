@@ -9,7 +9,7 @@ from pathlib import Path
 
 
 ROOT = Path(__file__).resolve().parents[1]
-EXERCISES = (
+PROGRAMS = (
     "strings/palindrome",
     "strings/case-insensitive-matching",
     "numbers/perfect-number",
@@ -29,9 +29,9 @@ def tracked_files() -> list[Path]:
 
 
 def validate_layout(errors: list[str]) -> None:
-    for relative in EXERCISES:
-        exercise = ROOT / relative
-        for required in (exercise / "README.md", exercise / "src" / "main.ASM"):
+    for relative in PROGRAMS:
+        program = ROOT / relative
+        for required in (program / "README.md", program / "src" / "main.ASM"):
             if not required.is_file():
                 errors.append(f"missing required file: {required.relative_to(ROOT)}")
 
@@ -44,7 +44,7 @@ def validate_generated_files(errors: list[str]) -> None:
 
 def validate_readme_images(errors: list[str]) -> None:
     image_pattern = re.compile(r'<img\s+[^>]*src=["\']([^"\']+)["\']', re.IGNORECASE)
-    for relative in EXERCISES:
+    for relative in PROGRAMS:
         readme = ROOT / relative / "README.md"
         for image in image_pattern.findall(readme.read_text(encoding="utf-8")):
             if image.startswith(("http://", "https://")):
@@ -66,7 +66,7 @@ def main() -> int:
             print(f"- {error}")
         return 1
 
-    print(f"Validated {len(EXERCISES)} assembly exercises.")
+    print(f"Validated {len(PROGRAMS)} assembly programs.")
     return 0
 
 

@@ -1,12 +1,12 @@
-# x86 Assembly Lab
+# x86 Assembly Programs
 
-A curated collection of 8086/x86 assembly exercises covering strings, numeric algorithms, matrices, DOS system services, and simple graphics.
+A curated collection of 8086/x86 assembly programs covering strings, numeric algorithms, matrices, DOS system services, and interactive graphics.
 
-This repository consolidates my original learning projects into one navigable lab. The implementations remain close to their original form; the surrounding structure and documentation are being standardized for reproducibility.
+This repository consolidates the original implementations into one navigable collection. The source remains close to its original form, with consistent structure and reproducibility documentation.
 
 ## Collections
 
-| Area | Exercise | Concepts |
+| Area | Program | Concepts |
 |---|---|---|
 | Strings | [Palindrome checker](strings/palindrome) | Indexed traversal and comparisons |
 | Strings | [Case-insensitive matching](strings/case-insensitive-matching) | Character normalization and matching |
@@ -16,7 +16,7 @@ This repository consolidates my original learning projects into one navigable la
 | System | [Current time](system/current-time) | DOS interrupts and formatted output |
 | Graphics | [Interactive checker board](graphics/checker-board) | Screen drawing and keyboard/mouse input |
 
-Each exercise keeps its own README, source files, and available screenshots.
+Each program keeps its own README, source files, and available screenshots.
 
 ## Toolchain
 
@@ -25,22 +25,22 @@ The programs target 16-bit DOS and use Microsoft Macro Assembler syntax. A typic
 - DOSBox or DOSBox-X
 - MASM with the `ml` command available inside the emulator
 
-From an exercise's `src` directory:
+From a program's `src` directory:
 
 ```text
 ml main.asm
 main.exe
 ```
 
-Generated `.OBJ` and `.EXE` files are intentionally excluded from version control. Exact inputs and expected output are documented in each exercise directory.
+Generated `.OBJ` and `.EXE` files are intentionally excluded from version control. Exact inputs and expected output are documented in each program directory.
 
 ## Scope
 
-These are educational implementations created while learning low-level programming. They are presented to demonstrate progression and fundamentals, not as production libraries.
+These low-level implementations focus on register operations, memory access, DOS services, algorithms, and graphics without framework abstractions.
 
 ## Provenance
 
-The exercises were migrated from their original standalone GitHub repositories. See [PROVENANCE.md](PROVENANCE.md) for the source mapping.
+The programs were migrated from their original standalone GitHub repositories. See [PROVENANCE.md](PROVENANCE.md) for the source mapping.
 
 ## License
 
