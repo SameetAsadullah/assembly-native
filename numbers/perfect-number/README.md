@@ -13,5 +13,5 @@ It is a simple code written in `Assembly Language` to check whether the given nu
     ```
     
     <div align="center">
-      <img src = "https://github.com/SameetAsadullah/Check-Perfect-Number-in-Assembly/blob/main/extras/working-ss.png" alt = "" width="600px"/>
+      <img src="extras/working-ss.png" alt="Perfect number program output" width="600px"/>
     </div>

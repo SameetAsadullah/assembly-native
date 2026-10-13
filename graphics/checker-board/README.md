@@ -13,20 +13,20 @@ It is a 5x5 `Interactive Checker Board` coded in `Assembly Language`. Interctive
     ```
     
     <div align="center">
-      <img src = "https://github.com/SameetAsadullah/Checker-Board-in-Assembly/blob/main/extras/commands-ss.png" alt = "" width="600px"/>
+      <img src="extras/commands-ss.png" alt="DOSBox commands used to build the checker board" width="600px"/>
     </div>
 
 2) For `Keyboard Input`, press `CapsLock` and then `Type Your Name`. You will see those squares turning into green:
     <div align="center">
-      <img src = "https://github.com/SameetAsadullah/Checker-Board-in-Assembly/blob/main/extras/working-ss-1.png" alt = "" width="600px"/>
+      <img src="extras/working-ss-1.png" alt="Keyboard interaction with the checker board" width="600px"/>
     </div>
     
 3) To change the code and make it `Work for Your Name`, you must replace the alphabets of my name with yours here:
     <div align="center">
-      <img src = "https://github.com/SameetAsadullah/Checker-Board-in-Assembly/blob/main/extras/code-ss.png" alt = "" width="600px"/>
+      <img src="extras/code-ss.png" alt="Checker board name configuration in the source" width="600px"/>
     </div>
     
 4) For `Mouse Input`, click on any square you want. Black squares will turn red and white squares will turn blue:
     <div align="center">
-      <img src = "https://github.com/SameetAsadullah/Checker-Board-in-Assembly/blob/main/extras/working-ss-2.png" alt = "" width="600px"/>
+      <img src="extras/working-ss-2.png" alt="Mouse interaction with the checker board" width="600px"/>
     </div>

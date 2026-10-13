@@ -8,15 +8,31 @@ This repository consolidates my original learning projects into one navigable la
 
 | Area | Exercise | Concepts |
 |---|---|---|
-| Strings | Palindrome checker | Indexed traversal and comparisons |
-| Strings | Case-insensitive matching | Character normalization and matching |
-| Numbers | Perfect-number checker | Division, factors, and accumulation |
-| Numbers | Prime and sequence operations | Branches, loops, and console output |
-| Matrices | Matrix multiplication | Nested loops and indexed memory |
-| System | Current time | DOS interrupts and formatted output |
-| Graphics | Interactive checker board | Screen drawing and keyboard input |
+| Strings | [Palindrome checker](strings/palindrome) | Indexed traversal and comparisons |
+| Strings | [Case-insensitive matching](strings/case-insensitive-matching) | Character normalization and matching |
+| Numbers | [Perfect-number checker](numbers/perfect-number) | Division, factors, and accumulation |
+| Numbers | [Prime and sequence operations](numbers/prime-and-sequences) | Branches, loops, and console output |
+| Matrices | [Matrix multiplication](matrices/multiplication) | Nested loops and indexed memory |
+| System | [Current time](system/current-time) | DOS interrupts and formatted output |
+| Graphics | [Interactive checker board](graphics/checker-board) | Screen drawing and keyboard/mouse input |
 
 Each exercise keeps its own README, source files, and available screenshots.
+
+## Toolchain
+
+The programs target 16-bit DOS and use Microsoft Macro Assembler syntax. A typical setup uses:
+
+- DOSBox or DOSBox-X
+- MASM with the `ml` command available inside the emulator
+
+From an exercise's `src` directory:
+
+```text
+ml main.asm
+main.exe
+```
+
+Generated `.OBJ` and `.EXE` files are intentionally excluded from version control. Exact inputs and expected output are documented in each exercise directory.
 
 ## Scope
 

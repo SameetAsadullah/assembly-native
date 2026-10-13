@@ -13,5 +13,5 @@ It is a simple code written in `Assembly Language` to check whether the given st
     ```
     
     <div align="center">
-      <img src = "https://github.com/SameetAsadullah/Check-Palindrome-in-Assembly/blob/main/extras/working-ss.png" alt = "" width="600px"/>
+      <img src="extras/working-ss.png" alt="Palindrome checker output" width="600px"/>
     </div>

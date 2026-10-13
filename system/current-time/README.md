@@ -13,5 +13,5 @@ It is a simple code written in `Assembly Language` to get `Current Time` of your
     ```
     
     <div align="center">
-      <img src = "https://github.com/SameetAsadullah/Get-Current-Time-in-Assembly/blob/main/extras/working-ss.png" alt = "" width="600px"/>
+      <img src="extras/working-ss.png" alt="Current time program output" width="600px"/>
     </div>

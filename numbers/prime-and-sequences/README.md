@@ -20,5 +20,5 @@ It is a simple code written in `Assembly Language` to to `Check Prime`, `Print U
     
     <br/>
     <div align="center">
-      <img src = "https://github.com/SameetAsadullah/Check-Prime-and-Print-Operations-in-Assembly/blob/main/extras/working-ss.png" alt = "" width="600px"/>
+      <img src="extras/working-ss.png" alt="Prime and sequence operations output" width="600px"/>
     </div>

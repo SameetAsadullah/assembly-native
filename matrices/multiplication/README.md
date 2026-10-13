@@ -13,5 +13,5 @@ It is a simple code written in `Assembly Language` to `Multiply` two `NxN matric
     ```
     
     <div align="center">
-      <img src = "https://github.com/SameetAsadullah/Matrix-Multiplication-in-Assembly/blob/main/extras/working-ss.png" alt = "" width="600px"/>
+      <img src="extras/working-ss.png" alt="Matrix multiplication program output" width="600px"/>
     </div>

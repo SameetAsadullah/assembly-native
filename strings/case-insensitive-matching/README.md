@@ -13,5 +13,5 @@ It is a simple code written in `Assembly Language` to check whether two strings 
     ```
     
     <div align="center">
-      <img src = "https://github.com/SameetAsadullah/String-Matching-in-Assembly/blob/main/extras/working-ss.png" alt = "" width="600px"/>
+      <img src="extras/working-ss.png" alt="Case-insensitive string matching output" width="600px"/>
     </div>
