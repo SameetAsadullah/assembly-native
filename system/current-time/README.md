@@ -1,7 +1,7 @@
 <h1 align="center">Get Current Time in Assembly</h1>
 
 ### Description
-It is a simple code written in `Assembly Language` to get `Current Time` of your System.
+A DOS x86 assembly utility that reads and displays the current system time through DOS services.
 
 ### Manual
 1) Use these command in dosbox to `Compile` and `Run` the code:

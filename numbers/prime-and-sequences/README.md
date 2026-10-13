@@ -1,7 +1,7 @@
 <h1 align="center">Check Prime and Print Operations in Assembly</h1>
 
 ### Description
-It is a simple code written in `Assembly Language` to to `Check Prime`, `Print Uppercase Letters`, `Print Lowercase Letters`, `Print Numbers` and Print first seven terms of `Fibonacci Series`.
+An 8086 assembly program combining primality checking with uppercase, lowercase, numeric, and Fibonacci sequence output.
 
 ### Manual
 1) Use these command in dosbox to `Compile` and `Run` the code:

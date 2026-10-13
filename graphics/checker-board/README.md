@@ -1,7 +1,7 @@
 <h1 align="center">Checker Board in Assembly</h1>
 
 ### Description
-It is a 5x5 `Interactive Checker Board` coded in `Assembly Language`. Interctive means that it gives response to your `Keyboard and Mouse Inputs`. You must first give keyboard inputs and then mouse inputs for it to work. For keyboard input, you must type your name in all capital letters and squares with those alphabets on the checker board will turn green. For mouse input, you can click on any alphabet as you want and their color will change. On clicking, black square will turn red and white square will turn blue.
+An interactive 5×5 checkerboard rendered in x86 assembly with keyboard- and mouse-driven color updates. Uppercase keyboard input highlights matching lettered squares in green; mouse selection changes black squares to red and white squares to blue.
 
 ### Manual
 1) Use these command in dosbox to `Compile` and `Run` the code:
