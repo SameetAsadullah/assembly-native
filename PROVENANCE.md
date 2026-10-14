@@ -1,6 +1,6 @@
 # Provenance
 
-This collection preserves the implementations from the following repositories maintained by Sameet Asadullah:
+The following source repositories were maintained by Sameet Asadullah:
 
 | Destination | Original repository |
 |---|---|

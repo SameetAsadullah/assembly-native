@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Validate the collection layout without assembling DOS-targeted programs."""
+"""Validate the source layout without assembling DOS-targeted programs."""
 
 from __future__ import annotations
 

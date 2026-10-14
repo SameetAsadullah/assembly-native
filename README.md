@@ -1,10 +1,10 @@
 # x86 Assembly Programs
 
-A curated collection of 8086/x86 assembly programs covering strings, numeric algorithms, matrices, DOS system services, and interactive graphics.
+8086/x86 assembly programs covering strings, numeric algorithms, matrices, DOS system services, and interactive graphics.
 
-This repository consolidates the original implementations into one navigable collection. The source remains close to its original form, with consistent structure and reproducibility documentation.
+The programs are organized by function, with source files, screenshots, and build guidance for each component.
 
-## Collections
+## Programs
 
 | Area | Program | Concepts |
 |---|---|---|
@@ -40,8 +40,8 @@ These low-level implementations focus on register operations, memory access, DOS
 
 ## Provenance
 
-The programs were migrated from their original standalone GitHub repositories. See [PROVENANCE.md](PROVENANCE.md) for the source mapping.
+See [PROVENANCE.md](PROVENANCE.md) for source history and attribution.
 
 ## License
 
-No blanket open-source license is applied yet. The original projects did not declare a license, so reuse permissions are intentionally not broadened during consolidation.
+No repository-wide open-source license is declared. See the source history for component-level licensing details.
